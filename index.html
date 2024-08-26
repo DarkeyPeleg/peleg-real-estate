@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peleg_Realestate - Choose your dream home</title>
+  <!--======== custom css link =========-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--========= google font link ========-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+   <header class="header" data-header>
+        <div class="container">
+            <a href="" class="logo">
+                <ion-icon name="home-outline"></ion-icon> Peleg Real Estate
+            </a>
+
+            <nav class="navbar container" data-navbar>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link" data-nav-link>About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link" data-nav-link>Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="nav-toggler" data-nav-toggler>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+            </div>
+   </header>
+
+   <!--======== main =========-->
+   <main>
+        <article class="article">
+            <section class="section hero" aria-label="hero">
+                <div class="container">
+                    <div class="hero-bg">
+                        <div class="hero-content">
+                            <h1 class="h1 hero-title">
+                                Find Your <span class="span">Dream</span> Home Today                         </h1>
+
+                            <p class="hero-text">
+                                Buy your dream home today without any agent or commissions
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="hero-form-wrapper">
+                        <div class="form-tab">
+                            <button class="tab-btn active" data-tab-btn>Buy</button>
+                            <button class="tab-btn " data-tab-btn>Sell</button>
+                            <button class="tab-btn " data-tab-btn>Rent</button>
+                        </div>
+
+                        <form action="" class="hero-form">
+                            <div class="input-wrapper">
+                                <label for="search" class="input-label">Search: *</label>
+                                <input type="search" name="search" id="search" placeholder="Search your home" required class="input-field">
+                                <ion-icon name="search-outline"></ion-icon>
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="category" class="input-label">Select Categories</label>
+                                <select name="category" id="category" class="dropdown-list">
+                                    <option value="house">House</option>
+                                    <option value="apartment">Apartment</option>
+                                    <option value="offices">Offices</option>
+                                    <option value="townhome">Townhome</option>
+                                </select>
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="min-price" class="input-label">Min Price :</label>
+                                <select name="min-price" id="min-price" class="dropdown-list">
+                                    <option value="min price">Min Price</option>
+                                    <option value="500">500</option>
+                                    <option value="1000">1000</option>
+                                    <option value="2000">2000</option>
+                                    <option value="3000">3000</option>
+                                    <option value="4000">4000</option>
+                                    <option value="5000">5000</option>
+                                    <option value="6000">6000</option>
+                                </select>
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="max-price" class="input-label">Max Price :</label>
+                                <select name="max-price" id="max-price" class="dropdown-list">
+                                    <option value="max price">Max Price</option>
+                                    <option value="500">500</option>
+                                    <option value="1000">1000</option>
+                                    <option value="2000">2000</option>
+                                    <option value="3000">3000</option>
+                                    <option value="4000">4000</option>
+                                    <option value="5000">5000</option>
+                                    <option value="6000">6000</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Search now</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section about" id="about" aria-level="about">
+                <div class="container">
+                    <div class="about-banner img-holder" style="--width: 600; --height: 700;">
+                        <img src="images/about-banner.jpg" width="600px" height="700px" loading="lazy" alt="" class="img-cover">
+
+                     
+                    </div>
+
+                    <div class="about-content">
+                        <h2 class="h2 section-title">Trusted. Affordable. Transparent</h2>
+                        <p class="section-text">At Peleg Real Estate, we are dedicated to helping you find the perfect property that meets your needs and lifestyle. With a commitment to excellence and a deep understanding of the market, we provide personalized service to guide you every step of the way. Whether you're buying, selling, or renting, your satisfaction is our priority.
+
+                        </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== SECTION ==========-->
+            <section class="section service" id="service" aria-label="service">
+                <div class="container">
+                    <h2 class="section-title">How It Works</h2>
+                    <p class="section-text">A great platform to buy, sell and rent your properties without any agent or commisions</p>
+                    <ul class="service-list">
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="home-outline"></ion-icon>
+                                </div>
+                                <h3 class="h3 card-title">Evaluate Property</h3>
+                                <p class="card-text">
+                                    We provide you with all the tools and resources needed to assess your property’s value.
+                                     Get accurate insights and make informed decisions effortlessly.                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="briefcase-outline"></ion-icon>
+                                </div>
+                                <h3 class="h3 card-title">Meeting With Agent</h3>
+                                <p class="card-text">
+                                    Connect directly with our experienced agents for personalized assistance.
+                                     We'll guide you through every step, ensuring a smooth and efficient process.                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="key-outline"></ion-icon>
+                                </div>
+                                <h3 class="h3 card-title">Close The Deal</h3>
+                                <p class="card-text">
+                                    Seal the deal with confidence. Our platform ensures a secure and straightforward transaction,
+                                     giving you peace of mind as you finalize your property deal.                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--=========== PROPERTIES ===========-->
+            <section class="section property" id="property" aria-label="property">
+                <div class="container">
+                    <h2 class="h2 section-title">Featured Properties</h2>
+                    <p class="section-text">
+                        A great platform to buy, sell and rent properties without any agent or commisions.
+                    </p>
+                    <ul class="property-list">
+                        <li>
+                            <div class="property-card">
+                                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                                    <img src="images/img2.jpg" width="800px" height="533" loading="lazy" alt="" class="img-cover">
+                                </figure>
+                                <button class="card-action-btn" aria-label="add to favourite">
+                                    <ion-icon name="heart"></ion-icon>
+                                </button>
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Main Street, Oyarifa, Ghana</a>
+                                    </h3>
+                                    <ul class="card-list">
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="cube-outline"></ion-icon>
+                                            </div>
+
+                                            <span class="item-text">7500sqf</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="bed-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">4 Beds</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="man-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">3 Baths</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="card-meta">
+                                        <div>
+                                            <span class="meta-title">Price</span>
+                                            <span class="meta-text">₵7500.99</span>
+                                        </div>
+
+                                        <div>
+                                            <span class="meta-title">Rating</span>
+                                            <span class="meta-text">
+                                                <div class="rating-wrapper">
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                </div>
+
+                                                <span>5.0(24)</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="property-card">
+                                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                                    <img src="images/img3.jpg" width="800px" height="533" loading="lazy" alt="" class="img-cover">
+                                </figure>
+                                <button class="card-action-btn" aria-label="add to favourite">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </button>
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Cantoment, Accra, Ghana </a>
+                                    </h3>
+                                    <ul class="card-list">
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="cube-outline"></ion-icon>
+                                            </div>
+
+                                            <span class="item-text">8000sqf</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="bed-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">6 Beds</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="man-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">4 Baths</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="card-meta">
+                                        <div>
+                                            <span class="meta-title">Price</span>
+                                            <span class="meta-text">₵4900.99</span>
+                                        </div>
+
+                                        <div>
+                                            <span class="meta-title">Rating</span>
+                                            <span class="meta-text">
+                                                <div class="rating-wrapper">
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                </div>
+
+                                                <span>4.0(36)</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="property-card">
+                                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                                    <img src="images/img4.jpg" width="800px" height="533" loading="lazy" alt="" class="img-cover">
+                                </figure>
+                                <button class="card-action-btn" aria-label="add to favourite">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </button>
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Klo-Agogo, Eastern Region, Ghana</a>
+                                    </h3>
+                                    <ul class="card-list">
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="cube-outline"></ion-icon>
+                                            </div>
+
+                                            <span class="item-text">8000sqf</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="bed-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">3 Beds</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="man-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">3 Baths</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="card-meta">
+                                        <div>
+                                            <span class="meta-title">Price</span>
+                                            <span class="meta-text">₵5999.99</span>
+                                        </div>
+
+                                        <div>
+                                            <span class="meta-title">Rating</span>
+                                            <span class="meta-text">
+                                                <div class="rating-wrapper">
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                   
+                                                </div>
+
+                                                <span>3.0(11)</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="property-card">
+                                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                                    <img src="images/img5.jpg" width="800px" height="533" loading="lazy" alt="" class="img-cover">
+                                </figure>
+                                <button class="card-action-btn" aria-label="add to favourite">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </button>
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">5 Helland Bridge, Upper Boat, UK</a>
+                                    </h3>
+                                    <ul class="card-list">
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="cube-outline"></ion-icon>
+                                            </div>
+
+                                            <span class="item-text">7500sqf</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="bed-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">8 Beds</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="man-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">7 Baths</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="card-meta">
+                                        <div>
+                                            <span class="meta-title">Price</span>
+                                            <span class="meta-text">₵10000.99</span>
+                                        </div>
+
+                                        <div>
+                                            <span class="meta-title">Rating</span>
+                                            <span class="meta-text">
+                                                <div class="rating-wrapper">
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                </div>
+
+                                                <span>5.0(80)</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="property-card">
+                                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                                    <img src="images/img6.jpg" width="800px" height="533" loading="lazy" alt="" class="img-cover">
+                                </figure>
+                                <button class="card-action-btn" aria-label="add to favourite">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </button>
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Abuja State, Nigeria</a>
+                                    </h3>
+                                    <ul class="card-list">
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="cube-outline"></ion-icon>
+                                            </div>
+
+                                            <span class="item-text">7500sqf</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="bed-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">3 Beds</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="man-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">2 Baths</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="card-meta">
+                                        <div>
+                                            <span class="meta-title">Price</span>
+                                            <span class="meta-text">₵5500.99</span>
+                                        </div>
+
+                                        <div>
+                                            <span class="meta-title">Rating</span>
+                                            <span class="meta-text">
+                                                <div class="rating-wrapper">
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                </div>
+
+                                                <span>4.0(44)</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="property-card">
+                                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                                    <img src="images/img7.jpg" width="800px" height="533" loading="lazy" alt="" class="img-cover">
+                                </figure>
+                                <button class="card-action-btn" aria-label="add to favourite">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </button>
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Peleg street, Accra, Ghana</a>
+                                    </h3>
+                                    <ul class="card-list">
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="cube-outline"></ion-icon>
+                                            </div>
+
+                                            <span class="item-text">8000sqf</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="bed-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">4 Beds</span>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <div class="item-icon">
+                                                <ion-icon name="man-outline"></ion-icon>
+                                            </div>
+                                            <span class="item-text">4 Baths</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="card-meta">
+                                        <div>
+                                            <span class="meta-title">Price</span>
+                                            <span class="meta-text">₵1100.99</span>
+                                        </div>
+
+                                        <div>
+                                            <span class="meta-title">Rating</span>
+                                            <span class="meta-text">
+                                                <div class="rating-wrapper">
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                    <ion-icon name="star"></ion-icon>
+                                                </div>
+
+                                                <span>5.0(50)</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--========= CONTACT =========-->
+            <section class="section contact" id="contact" aria-label="contact">
+                <div class="container">
+                    <h2 class="h2 section-title">Have a Question ? Get in touch</h2>
+
+                    <p class="section-text">
+                        A great platform to buy, sell, and rent your properties without any agent or comissions
+                    </p>
+                    <button class="btn btn-primary">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <span class="span"><a href="https://www.instagram.com/goldfern_/?igsh=YWhpdzIxOTRlYWY4">Contact us</a></span>
+                    </button>
+                </div>
+            </section>
+
+            <!--======= FOOTER ========-->
+            <footer class="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="footer-brand">
+                            <a href="#" class="logo">
+                                <ion-icon name="home-outline"></ion-icon>Peleg Real Estate
+                            </a>
+                            <p class="footer-text">
+                                A great platform to buy, sell and rent your properties without any agent or comissions
+                            </p>
+                        </div>
+
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">Company</p>
+                            </li>
+                            <li>
+                                <a href="#about" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">About us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#services" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">Services</span>
+                                 </a>
+                            </li>
+                            <li>
+                                <a href="#properties" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">Pricing</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">Contact us</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">More Links</p>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">Listing</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">Contact Details</p>
+                            </li>
+
+                            <li class="footer-item">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <address class="address">
+                                    Koforidua, Eastern Region <br>
+                                    Ghana
+                                </address>
+                            </li>
+
+                            <li class="footer-item">
+                                <ion-icon name="mail-outline"></ion-icon>
+                                <a href="mailto: peldarkey@gmail.com" class="footer-link">peldarkey@gmail.com</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <ion-icon name="call-outline"></ion-icon>
+                                <a href="tel: 054-926-0176" class="footer-link">054-926-0176</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <p class="copyright">
+                            &copy; 2024 Peleg-Real Estate. All rights reserved
+                        </p>
+
+                        <ul class="social-list">
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/goldfern_/?igsh=YWhpdzIxOTRlYWY4" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
+            <!--=========== BACK-TO-TOP ==========-->
+            <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+                <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+            </a>
+        </article>
+   </main>
+    
+  <!--========= custom js link =========-->
+  <script src="js/main.js" defer></script>
+
+  <!--=========== ionicon link ==========-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 
